@@ -1,0 +1,26 @@
+/*======================================================================================================
+Geral Geral Geral Geral Geral Geral Geral Geral Geral Geral Geral Geral Geral Geral Geral Geral Geral
+========================================================================================================
+*/
+
+body {
+    background: rgb(63, 1, 1);
+    color: #21243D;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a{
+    color: #21243D;
+    text-decoration: none;
+}
+
+/*======================================================================================================
+Especifico
+========================================================================================================
+*/
+
+header ul li{
+    text-align: center;
+    padding: 10px 0 10px 0;
+    margin: ;
+}
