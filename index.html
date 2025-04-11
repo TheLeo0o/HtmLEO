@@ -12,7 +12,7 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Blog</a></li>
                 <li><a href="#">Works</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
@@ -20,15 +20,15 @@
     </header>
     <main>
         <section id="banner" class="banner">
-            <img src="HtmLEO-main/images/homi.png" alt="imagem perfil">
-            <h1>Hi, I am John,Creative Technologist</h1>
+            <img src="src/images/homem.png" alt="um homem">
+            <h1>Hi, I am John, Creative Technologist</h1>
             <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-            <p>
-                <button>Dowload Resume</button>
-            </p>
+            <div>
+                <button>Download Resume</button>
+            </div>
         </section>
-        <section class="posts">
-            <h2>Recent Posts</h2>
+        <section id="posts" class="post">
+            <h2>Recent posts</h2>
             <ul>
                 <li>
                     <h3>Making a design system from scratch</h3>
@@ -37,18 +37,37 @@
                 </li>
                 <li>
                     <h3>Creating pixel perfect icons in Figma</h3>
-                    <p>12 Feb 2020 | Figma, Icon Design</p>
+                    <p>12 Feb 2020 | Design, Pattern</p>
                     <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="works">
+            <h2>Featured works</h2>
+            <ul>
+                <li>
+                    <img src="src/images/befound.png" alt="Gráfico">
+                    <h3>Designing Dashboards</h3>
+                    <p class="info"><span>2020</span> Dashboards</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora culpa nam maiores officiis velit facere dolor. Quod quae aliquam mollitia iusto, facere illo dicta quis blanditiis. Eaque quas corrupti cupiditate?</p>
+                </li>
+                <li>
+                    <img src="src/images/objeto.png" alt="Mulher">
+                    <h3>Vibrant Portraits of 2020</h3>
+                    <p class="info"><span>2018</span> Dashboards</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora culpa nam maiores officiis velit facere dolor. Quod quae aliquam mollitia iusto, facere illo dicta quis blanditiis. Eaque quas corrupti cupiditate?</p>
                 </li>
             </ul>
         </section>
     </main>
     <footer>
-        <p>
-            <a href="#"><span class="fa-brands fa-facebook"></i></span></a>
-            <a href="#"><span class="fa-brands fa-instagram"></span></a>
-            <a href="#"><span class="fa-brands fa-x-twitter"></span></a>
+        <p class="link">
+            <a href="#" class="fa-brands fa-square-facebook"></a>
+            <a href="#" class="fa-brands fa-instagram"></a>
+            <a href="#" class="fa-brands fa-linkedin"></a>
+            <a href="#" class="fa-brands fa-square-x-twitter"></a>
         </p>
+        <p>Copyright ©2020 All rights reserved </p>
     </footer>
 </body>
 </html>
