@@ -73,4 +73,38 @@ section.posts ul li h3 {
 
 section.posts ul li p {
     margin: 10px;
+    background-color: #FFFFFF;
+    padding: 0000;
+    border-radius: 4px;
+}
+section.posts li p {
+    margin: 15px 0 0 0;
+}
+section.works{
+    padding: 20px 10px 20px 10px ;
+}
+/* mais facil fazer 30 horas de backend do que isso aqui pqp */
+
+section.works ul li h3{
+    font-weight: bold;
+    font-size: 1.3rem;
+    line-height:130% ;
+    margin: 10px 0 0 0;
+}
+section.works ul li p.info span{
+    color: #FFFFFF;
+    background-color: #142850;
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+section.works ul{
+    border: ;
+}
+
+footer{
+    text-align: center;
+}
+footer a{
+    font-size: 2.3rem;
+    margin: 5px 15px;
 }
